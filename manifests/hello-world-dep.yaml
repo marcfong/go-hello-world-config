@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: gcr.io/cicd-gke-demo/go-hello-world:master-d1667e1
+        image: gcr.io/cicd-gke-demo/go-hello-world:master-12d9cbc
         ports:
         - containerPort: 8080
