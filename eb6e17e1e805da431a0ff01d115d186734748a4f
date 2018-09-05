@@ -1,0 +1,1 @@
+{"jobID":"bc11bbf6-5fa3-c270-0d0e-ab1a36c03069","spec":{"type":"policy","cause":{"Message":"","User":"marcfong \u003cmarcfong@google.com\u003e"},"spec":{"default:deployment/hello-world":{"add":null,"remove":{"automated":"true"}}}},"result":null}
