@@ -2,11 +2,11 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  annotations:
-    flux.weave.works/automated: "true"
   name: hello-world
   labels:
     name: hello-world
+  annotations:
+    flux.weave.works/automated: 'true'
 spec:
   replicas: 1
   template:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: gcr.io/cicd-gke-demo/go-hello-world:master-d1667e1
+        image: gcr.io/cicd-gke-demo/go-hello-world:master-d80d130
         ports:
         - containerPort: 8080
       revisionHistoryLimit: 20
