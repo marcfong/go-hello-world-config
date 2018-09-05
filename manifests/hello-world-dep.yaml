@@ -19,3 +19,4 @@ spec:
         image: gcr.io/cicd-gke-demo/go-hello-world:master-d1667e1
         ports:
         - containerPort: 8080
+      revisionHistoryLimit: 20
